@@ -32,7 +32,8 @@ Object considered: Bench
       a.	Bottom most point – 1/9 of the height of the image and below the center of the input image.
       b.	Left point – 1/7 of the height of bounding box (To touch the outermost point of the bench in the bounding box)
       c.	Right point – 1/7 of the height of bounding box (To touch the outermost point of the bench in the bounding box)
-
+      
+![](bench_output.png)
 
   4.	Identify the angle of vision between the two lines.(Assuming that the bottom most point denotes the camera location. )
   5.	Please refer the link for the formula  of calculating the distance between the camera lense and the detected object. 
@@ -60,6 +61,5 @@ This is more simple and lean approach. Distance is not calculated in this approa
   Assumption: a. Set the threshold of ration to 0.5
               b. If ration is greater than 0.5 then we can say that object is closer and far other-wise.
 
-
-
+![](bottle_output.png)
 
